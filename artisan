@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+use Illuminate\Foundation\Application;
+use Symfony\Component\Console\Input\ArgvInput;
+
+define('LARAVEL_START', microtime(true));
+
+if (file_exists($maintenance = __DIR__.'/storage/framework/maintenance.php')) {
+    require $maintenance;
+}
+
+if (file_exists(__DIR__.'/vendor/autoload.php')) {
+    require __DIR__.'/vendor/autoload.php';
+} else {
+    fwrite(STDERR, "Run 'composer install' first.\n");
+    exit(1);
+}
+
+$status = (new Application(
+    dirname(__DIR__),
+    new Illuminate\Foundation\ProviderRepository(
+        new Illuminate\Foundation\Application(dirname(__DIR__))
+    )
+))
+    ->handle(new ArgvInput);
+
+exit($status);

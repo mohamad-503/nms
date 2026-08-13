@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "مدير النظام",
+        "email": "admin@nm.iq",
+        "password": "$2y$12$dAr1gJoysiZxpQf.8BME\/exWpem4RHhZbPEgFUsKbw6ogmNosPwNi",
+        "role": "super_admin",
+        "is_active": true,
+        "phone": "07701110000"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "action": "login",
+        "module": "auth",
+        "description": "تسجيل دخول",
+        "ip_address": "127.0.0.1",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "user_id": 1,
+        "action": "create",
+        "module": "customers",
+        "description": "إضافة مشترك جديد",
+        "ip_address": "127.0.0.1",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 3,
+        "user_id": 1,
+        "action": "payment",
+        "module": "billing",
+        "description": "تحصيل فاتورة INV-100001",
+        "ip_address": "127.0.0.1",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

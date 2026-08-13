@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "الباقة الأساسية",
+        "price": 25000,
+        "download_speed": 10,
+        "upload_speed": 5,
+        "burst": "نعم",
+        "validity": 30,
+        "is_active": true,
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "name": "الباقة الفضية",
+        "price": 50000,
+        "download_speed": 20,
+        "upload_speed": 10,
+        "burst": "نعم",
+        "validity": 30,
+        "is_active": true,
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 3,
+        "name": "الباقة الذهبية",
+        "price": 80000,
+        "download_speed": 40,
+        "upload_speed": 20,
+        "burst": "نعم",
+        "validity": 30,
+        "is_active": true,
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 4,
+        "name": "الباقة البلاتينية",
+        "price": 120000,
+        "download_speed": 80,
+        "upload_speed": 40,
+        "burst": "نعم",
+        "validity": 30,
+        "is_active": true,
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

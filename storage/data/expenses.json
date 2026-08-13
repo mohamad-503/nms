@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "category": "إيجار",
+        "amount": 15000,
+        "expense_date": "2026-07-01",
+        "description": "إيجار المكتب",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "category": "صيانة",
+        "amount": 30000,
+        "expense_date": "2026-07-15",
+        "description": "صيانة أبراج",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 3,
+        "category": "رواتب",
+        "amount": 200000,
+        "expense_date": "2026-07-25",
+        "description": "رواتب الموظفين",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

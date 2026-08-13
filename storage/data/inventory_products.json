@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "category_id": 1,
+        "supplier_id": 1,
+        "name": "راوتر TP-Link",
+        "sku": "TL-WR840N",
+        "cost_price": 35000,
+        "sale_price": 50000,
+        "quantity": 12,
+        "min_quantity": 5,
+        "unit": "piece",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "category_id": 2,
+        "supplier_id": 2,
+        "name": "كابل شبكة 1م",
+        "sku": "CAB-1M",
+        "cost_price": 2000,
+        "sale_price": 5000,
+        "quantity": 3,
+        "min_quantity": 10,
+        "unit": "piece",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 3,
+        "category_id": 3,
+        "supplier_id": 1,
+        "name": "مستقبل لاسلكي",
+        "sku": "RB-LHG-5AC",
+        "cost_price": 60000,
+        "sale_price": 95000,
+        "quantity": 8,
+        "min_quantity": 3,
+        "unit": "piece",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

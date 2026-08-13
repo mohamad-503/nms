@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "full_name": "محمد المدير",
+        "phone": "07701112233",
+        "department_id": 1,
+        "position": "مدير عام",
+        "salary": 1500000,
+        "hire_date": "2024-01-01",
+        "status": "active",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "full_name": "فاطمة المحاسبة",
+        "phone": "07802223344",
+        "department_id": 2,
+        "position": "محاسب",
+        "salary": 800000,
+        "hire_date": "2024-03-15",
+        "status": "active",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 3,
+        "full_name": "علي الفني",
+        "phone": "07903334455",
+        "department_id": 3,
+        "position": "فني صيانة",
+        "salary": 500000,
+        "hire_date": "2025-06-01",
+        "status": "active",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

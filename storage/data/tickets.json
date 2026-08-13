@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "customer_id": 1,
+        "subject": "انقطاع الاتصال",
+        "description": "الاتصال متقطع منذ الصباح",
+        "priority": "high",
+        "status": "open",
+        "assigned_to": null,
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "customer_id": 3,
+        "subject": "بطء في التصفح",
+        "description": "السرعة أقل من المعتاد",
+        "priority": "medium",
+        "status": "assigned",
+        "assigned_to": 1,
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 3,
+        "customer_id": 5,
+        "subject": "طلب إعادة تفعيل",
+        "description": "يرغب بإعادة تفعيل الخدمة",
+        "priority": "urgent",
+        "status": "in_progress",
+        "assigned_to": 1,
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

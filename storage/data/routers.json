@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "الراوتر الرئيسي",
+        "ip": "192.168.88.1",
+        "port": 8728,
+        "username": "admin",
+        "password": "admin123",
+        "use_ssl": false,
+        "status": "online",
+        "last_checked": "2026-07-31T22:29:28+00:00",
+        "notes": "",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "name": "راوتر الفرع",
+        "ip": "10.0.0.1",
+        "port": 8728,
+        "username": "admin",
+        "password": "pass456",
+        "use_ssl": false,
+        "status": "offline",
+        "last_checked": null,
+        "notes": "",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

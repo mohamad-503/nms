@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "مورد التقنية",
+        "phone": "0770000001",
+        "email": "supplier1@nm.iq",
+        "address": "",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    },
+    {
+        "id": 2,
+        "name": "شركة الكابل",
+        "phone": "0770000002",
+        "email": "supplier2@nm.iq",
+        "address": "",
+        "created_at": "2026-07-31T22:29:28+00:00"
+    }
+]

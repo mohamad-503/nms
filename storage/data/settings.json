@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "key": "company_name",
+        "value": "NM System",
+        "group_name": "general"
+    },
+    {
+        "id": 2,
+        "key": "currency",
+        "value": "IQD",
+        "group_name": "general"
+    },
+    {
+        "id": 3,
+        "key": "tax_rate",
+        "value": "0",
+        "group_name": "general"
+    },
+    {
+        "id": 4,
+        "key": "language",
+        "value": "ar",
+        "group_name": "general"
+    },
+    {
+        "id": 5,
+        "key": "smtp_host",
+        "value": "",
+        "group_name": "email"
+    },
+    {
+        "id": 6,
+        "key": "smtp_port",
+        "value": "587",
+        "group_name": "email"
+    },
+    {
+        "id": 7,
+        "key": "telegram_bot_token",
+        "value": "",
+        "group_name": "notifications"
+    },
+    {
+        "id": 8,
+        "key": "whatsapp_api_key",
+        "value": "",
+        "group_name": "notifications"
+    }
+]

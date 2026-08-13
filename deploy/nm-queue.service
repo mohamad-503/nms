@@ -1,0 +1,15 @@
+[Unit]
+Description=NM System Laravel Queue Worker
+After=network.target mysql.service
+
+[Service]
+User=www-data
+Group=www-data
+Restart=always
+ExecStart=/usr/bin/php /var/www/nm-system/artisan queue:work --sleep=3 --tries=3 --max-time=60
+WorkingDirectory=/var/www/nm-system
+StandardOutput=append:/var/www/nm-system/storage/logs/queue.log
+StandardError=append:/var/www/nm-system/storage/logs/queue-error.log
+
+[Install]
+WantedBy=multi-user.target

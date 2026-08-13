@@ -1,0 +1,131 @@
+{
+  "_Badge-CrOm1BC7.js": {
+    "file": "assets/Badge-CrOm1BC7.js",
+    "name": "Badge",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_PageHeader-D72Fgzqc.js": {
+    "file": "assets/PageHeader-D72Fgzqc.js",
+    "name": "PageHeader",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DZh5K7IY.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/Auth/ForgotPassword.vue": {
+    "file": "assets/ForgotPassword-fnUkbvqC.js",
+    "name": "ForgotPassword",
+    "src": "resources/js/Pages/Auth/ForgotPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.vue": {
+    "file": "assets/Login-BXJorM8C.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  },
+  "resources/js/Pages/Customers/Create.vue": {
+    "file": "assets/Create-BXF_x5zd.js",
+    "name": "Create",
+    "src": "resources/js/Pages/Customers/Create.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_PageHeader-D72Fgzqc.js"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  },
+  "resources/js/Pages/Customers/Edit.vue": {
+    "file": "assets/Edit-D3pEoguJ.js",
+    "name": "Edit",
+    "src": "resources/js/Pages/Customers/Edit.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_PageHeader-D72Fgzqc.js"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  },
+  "resources/js/Pages/Customers/Index.vue": {
+    "file": "assets/Index-Bjz_vg50.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Customers/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_PageHeader-D72Fgzqc.js",
+      "_Badge-CrOm1BC7.js"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  },
+  "resources/js/Pages/Customers/Show.vue": {
+    "file": "assets/Show-D8oaCUjW.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Customers/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_PageHeader-D72Fgzqc.js",
+      "_Badge-CrOm1BC7.js"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  },
+  "resources/js/Pages/Dashboard.vue": {
+    "file": "assets/Dashboard-CL77lfC7.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_PageHeader-D72Fgzqc.js",
+      "_Badge-CrOm1BC7.js"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-ghrVjMCz.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Auth/ForgotPassword.vue",
+      "resources/js/Pages/Auth/Login.vue",
+      "resources/js/Pages/Customers/Create.vue",
+      "resources/js/Pages/Customers/Edit.vue",
+      "resources/js/Pages/Customers/Index.vue",
+      "resources/js/Pages/Customers/Show.vue",
+      "resources/js/Pages/Dashboard.vue"
+    ],
+    "css": [
+      "assets/app-DZh5K7IY.css"
+    ]
+  }
+}
